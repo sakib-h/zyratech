@@ -1,0 +1,19 @@
+{
+  "name": "zyratech",
+  "version": "1.0.0",
+  "description": "Zyratech Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakib-h/zyratech.git"
+  },
+  "author": "Sakib Hasan, Mamdud Hasan Zoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakib-h/zyratech/issues"
+  },
+  "homepage": "https://github.com/sakib-h/zyratech#readme"
+}
