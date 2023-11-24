@@ -1,5 +1,6 @@
 import { Epilogue } from "next/font/google";
 import "@styles/globals.css";
+import Navbar from "@components/Navbar";
 
 const epilogue = Epilogue({
     subsets: ["latin"],
@@ -7,14 +8,17 @@ const epilogue = Epilogue({
 });
 
 export const metadata = {
-    title: "Zyratech - Web Solutions  ",
+    title: "Zyratech - Ultimate Web Solutions  ",
     description: "",
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={epilogue.className}>{children}</body>
+            <body className={epilogue.className}>
+                <Navbar />
+                <div>{children}</div>
+            </body>
         </html>
     );
 }

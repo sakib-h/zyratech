@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    color: red;
+@layer components {
+    .container {
+        @apply w-[95%] lg:w-[85%] mx-auto;
+    }
+    .nav-link {
+        @apply text-light-text text-[1.2rem] font-[400] cursor-pointer;
+    }
+    section {
+        @apply md:py-[5em];
+    }
 }
