@@ -1,3 +1,4 @@
+import Brands from "@components/Brands";
 import Image from "next/image";
 
 const Hero = () => {
@@ -35,24 +36,8 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className="flex flex-row flex-wrap justify-between items-center gap-3 mb-[5em]">
-                <img
-                    src="/icons/behance.svg"
-                    className="w-[42px] md:w-[52px]"
-                />
-                <img
-                    src="/icons/google.svg"
-                    className="w-[82px] md:w-[100px]"
-                />
-                <img src="/icons/apple.svg" className="w-[40px] md:w-[50px]" />
-                <img
-                    src="/icons/dribble.svg"
-                    className="w-[82px] md:w-[100px]"
-                />
-                <img
-                    src="/icons/awwwards.svg"
-                    className="w-[42px] md:w-[120px] hidden md:inline-block "
-                />
+            <div className="mb-[5em]">
+                <Brands />
             </div>
         </section>
     );

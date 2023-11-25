@@ -13,3 +13,9 @@
         @apply md:py-[5em];
     }
 }
+
+/* Library CSS */
+
+.swiper-slide {
+    @apply flex justify-center items-center !important;
+}
