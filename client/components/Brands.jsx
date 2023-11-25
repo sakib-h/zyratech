@@ -15,7 +15,7 @@ const Brands = () => {
                     spaceBetween: 40,
                 },
                 1024: {
-                    slidesPerView: 5,
+                    slidesPerView: 6,
                     spaceBetween: 50,
                 },
             }}
@@ -28,42 +28,56 @@ const Brands = () => {
             modules={[Autoplay]}
             className="mySwiper"
         >
-            <SwiperSlide className="mx-auto">
-                <img
-                    src="/icons/behance.svg"
-                    className="w-[42px] md:w-[52px]"
-                />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img
-                    src="/icons/google.svg"
-                    className="w-[82px] md:w-[100px]"
-                />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img src="/icons/apple.svg" className="w-[40px] md:w-[50px]" />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img
-                    src="/icons/dribble.svg"
-                    className="w-[82px] md:w-[100px]"
-                />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img
-                    src="/icons/awwwards.svg"
-                    className="w-[42px] md:w-[120px] "
-                />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img
-                    src="/icons/awwwards.svg"
-                    className="w-[42px] md:w-[120px] "
-                />
-            </SwiperSlide>
-            <SwiperSlide className="w-full flex justify-center">
-                <img src="/icons/apple.svg" className="w-[40px] md:w-[50px]" />
-            </SwiperSlide>
+            <div className="flex justify-center items-center">
+                <SwiperSlide className="mx-auto">
+                    <img
+                        src="/icons/behance.svg"
+                        className="w-[48px] md:w-[56px] "
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/google.svg"
+                        className="w-[48px] md:w-[56px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/apple.svg"
+                        className="w-[48px] md:w-[56px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/pied-piper.svg"
+                        className="w-[48px] md:w-[56px] "
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/ibm.svg"
+                        className="w-[48px] md:w-[56px] "
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/stripe.svg"
+                        className="w-[48px] md:w-[56px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/steelseries.svg"
+                        className="w-[48px] md:w-[56px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full flex justify-center">
+                    <img
+                        src="/icons/qgenda.svg"
+                        className="w-[48px] md:w-[56px]"
+                    />
+                </SwiperSlide>
+            </div>
         </Swiper>
     );
 };
