@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <section id="home" className="container">
-            <div className="grid grid-cols-1 md:grid-cols-12 items-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-12 items-center gap-10 mb-[5em]">
                 <div className="col-span-1 md:col-span-7 xl:col-span-8">
                     <div className="flex flex-col items-start gap-5">
                         <h4 className="text-light-primary font-semibold text-[0.8rem] md:text-[1rem] lg:text-[1.25rem]">
@@ -34,6 +34,25 @@ const Hero = () => {
                         className="w-full h-auto"
                     />
                 </div>
+            </div>
+            <div className="flex flex-row flex-wrap justify-between items-center gap-3 mb-[5em]">
+                <img
+                    src="/icons/behance.svg"
+                    className="w-[42px] md:w-[52px]"
+                />
+                <img
+                    src="/icons/google.svg"
+                    className="w-[82px] md:w-[100px]"
+                />
+                <img src="/icons/apple.svg" className="w-[40px] md:w-[50px]" />
+                <img
+                    src="/icons/dribble.svg"
+                    className="w-[82px] md:w-[100px]"
+                />
+                <img
+                    src="/icons/awwwards.svg"
+                    className="w-[42px] md:w-[120px] hidden md:inline-block "
+                />
             </div>
         </section>
     );
