@@ -33,6 +33,7 @@ const Hero = () => {
                         width={350}
                         height={350}
                         className="w-full h-auto"
+                        alt="Header"
                     />
                 </div>
             </div>
