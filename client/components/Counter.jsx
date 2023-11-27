@@ -10,6 +10,7 @@ const Counter = ({ end }) => {
             duration={3}
             useEasing={true}
             enableScrollSpy={true}
+            scrollSpyOnce={true}
         />
     );
 };

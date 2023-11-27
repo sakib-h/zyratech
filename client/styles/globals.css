@@ -4,7 +4,7 @@
 
 @layer components {
     .container {
-        @apply w-[90%] 2xl:w-[80%] mx-auto;
+        @apply w-[90%] xl:w-[80%] 2xl:w-[75%] mx-auto;
     }
     .nav-link {
         @apply text-light-text text-[1.2rem] font-[400] cursor-pointer;
