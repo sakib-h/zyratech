@@ -37,7 +37,7 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className="my-[10em]">
+            <div className="my-[5em]">
                 <Brands />
             </div>
         </section>

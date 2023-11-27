@@ -6,8 +6,8 @@ const Counter = ({ end }) => {
         <CountUp
             start={0}
             end={end}
-            delay={0.5}
-            duration={2}
+            delay={1}
+            duration={3}
             useEasing={true}
             enableScrollSpy={true}
         />
