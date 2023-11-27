@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <section id="services" className="container">
             <div className="flex justify-start">
-                <h3 className="text-light-primary bg-light-secondary font-semibold text-[1.25rem] px-[1em] py-[0.4em] rounded-lg">
+                <h3 className="text-light-primary bg-light-secondary font-semibold text-[1.25rem] px-[1em] py-[0.3em] rounded-[50px]">
                     Services
                 </h3>
             </div>
@@ -44,7 +44,7 @@ const Services = () => {
                         <img
                             src="/icons/design.svg"
                             alt="design"
-                            className="w-[5rem] "
+                            className="w-[4rem] xl:w-[5rem] "
                         />
 
                         <h2 className=" text-[1rem] md:text-[2rem] text-light-primary font-semibold">
@@ -60,12 +60,10 @@ const Services = () => {
                     </div>
                     <div className="absolute right-0 top-0 bg-light-secondary group-hover:bg-light-primary p-3 group-hover:rounded-tr-[1.25rem] duration-300">
                         <svg
-                            width="24"
-                            height="24"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="fill-light-primary group-hover:fill-light-secondary duration-300"
+                            className="fill-light-primary group-hover:fill-light-secondary duration-300 w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                         >
                             <path d="M23.2132 1.7868C23.2132 1.23451 22.7655 0.786795 22.2132 0.786795L13.2132 0.786796C12.6609 0.786796 12.2132 1.23451 12.2132 1.7868C12.2132 2.33908 12.6609 2.7868 13.2132 2.7868L21.2132 2.7868L21.2132 10.7868C21.2132 11.3391 21.6609 11.7868 22.2132 11.7868C22.7655 11.7868 23.2132 11.3391 23.2132 10.7868L23.2132 1.7868ZM1.70711 23.7071L22.9203 2.4939L21.5061 1.07969L0.292893 22.2929L1.70711 23.7071Z" />
                         </svg>
@@ -77,7 +75,7 @@ const Services = () => {
                         <img
                             src="/icons/ui-ux.svg"
                             alt="design"
-                            className="w-[5rem] "
+                            className="w-[4rem] xl:w-[5rem] "
                         />
 
                         <h2 className=" text-[1rem] md:text-[2rem] text-light-primary font-semibold">
@@ -91,12 +89,10 @@ const Services = () => {
                     </div>
                     <div className="absolute right-0 top-0 bg-light-secondary group-hover:bg-light-primary p-3 group-hover:rounded-tr-[1.25rem] duration-300">
                         <svg
-                            width="24"
-                            height="24"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="fill-light-primary group-hover:fill-light-secondary duration-300"
+                            className="fill-light-primary group-hover:fill-light-secondary duration-300 w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                         >
                             <path d="M23.2132 1.7868C23.2132 1.23451 22.7655 0.786795 22.2132 0.786795L13.2132 0.786796C12.6609 0.786796 12.2132 1.23451 12.2132 1.7868C12.2132 2.33908 12.6609 2.7868 13.2132 2.7868L21.2132 2.7868L21.2132 10.7868C21.2132 11.3391 21.6609 11.7868 22.2132 11.7868C22.7655 11.7868 23.2132 11.3391 23.2132 10.7868L23.2132 1.7868ZM1.70711 23.7071L22.9203 2.4939L21.5061 1.07969L0.292893 22.2929L1.70711 23.7071Z" />
                         </svg>
@@ -108,7 +104,7 @@ const Services = () => {
                         <img
                             src="/icons/development.svg"
                             alt="design"
-                            className="w-[5rem] "
+                            className="w-[4rem] xl:w-[5rem] "
                         />
 
                         <h2 className=" text-[1rem] md:text-[2rem] text-light-primary font-semibold">
@@ -123,12 +119,10 @@ const Services = () => {
                     </div>
                     <div className="absolute right-0 top-0 bg-light-secondary group-hover:bg-light-primary p-3 group-hover:rounded-tr-[1.25rem] duration-300">
                         <svg
-                            width="24"
-                            height="24"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="fill-light-primary group-hover:fill-light-secondary duration-300"
+                            className="fill-light-primary group-hover:fill-light-secondary duration-300 w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                         >
                             <path d="M23.2132 1.7868C23.2132 1.23451 22.7655 0.786795 22.2132 0.786795L13.2132 0.786796C12.6609 0.786796 12.2132 1.23451 12.2132 1.7868C12.2132 2.33908 12.6609 2.7868 13.2132 2.7868L21.2132 2.7868L21.2132 10.7868C21.2132 11.3391 21.6609 11.7868 22.2132 11.7868C22.7655 11.7868 23.2132 11.3391 23.2132 10.7868L23.2132 1.7868ZM1.70711 23.7071L22.9203 2.4939L21.5061 1.07969L0.292893 22.2929L1.70711 23.7071Z" />
                         </svg>
@@ -140,7 +134,7 @@ const Services = () => {
                         <img
                             src="/icons/digital-marketing.svg"
                             alt="design"
-                            className="w-[5rem] "
+                            className="w-[4rem] xl:w-[5rem] "
                         />
 
                         <h2 className=" text-[1rem] md:text-[2rem] text-light-primary font-semibold">
@@ -155,12 +149,10 @@ const Services = () => {
                     </div>
                     <div className="absolute right-0 top-0 bg-light-secondary group-hover:bg-light-primary p-3 group-hover:rounded-tr-[1.25rem] duration-300">
                         <svg
-                            width="24"
-                            height="24"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="fill-light-primary group-hover:fill-light-secondary duration-300"
+                            className="fill-light-primary group-hover:fill-light-secondary duration-300 w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                         >
                             <path d="M23.2132 1.7868C23.2132 1.23451 22.7655 0.786795 22.2132 0.786795L13.2132 0.786796C12.6609 0.786796 12.2132 1.23451 12.2132 1.7868C12.2132 2.33908 12.6609 2.7868 13.2132 2.7868L21.2132 2.7868L21.2132 10.7868C21.2132 11.3391 21.6609 11.7868 22.2132 11.7868C22.7655 11.7868 23.2132 11.3391 23.2132 10.7868L23.2132 1.7868ZM1.70711 23.7071L22.9203 2.4939L21.5061 1.07969L0.292893 22.2929L1.70711 23.7071Z" />
                         </svg>
