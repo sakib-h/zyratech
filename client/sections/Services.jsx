@@ -11,7 +11,7 @@ const Services = () => {
             <div className="flex flex-col md:flex-row justify-between items-start gap-10 my-20">
                 <div>
                     <h2 className="text-light-text text-[1.5rem] lg:text-[3rem] font-semibold">
-                        Take your business to new{" "}
+                        Take your business to new
                         <br className="hidden md:block" /> heights for success
                         with US
                     </h2>
@@ -38,7 +38,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-[5rem]">
                 <div className="col-span-1 relative rounded-[1.25rem] px-5 py-10 hover:bg-light-secondary group duration-300">
                     <div className="flex flex-col justify-start gap-5">
                         <img

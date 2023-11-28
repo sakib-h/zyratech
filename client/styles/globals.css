@@ -16,32 +16,22 @@
 
 /* Library CSS */
 
-.swiper-slide {
+.brands-slider .swiper-slide {
     @apply flex justify-center items-center !important;
 }
-.portfolio .swiper-wrapper {
-    @apply py-[5rem] !important;
+.portfolio-slider.swiper {
+    @apply py-[1rem] lg:py-[5rem] max-h-max !important;
+}
+.portfolio-slider .swiper-wrapper {
+    @apply pb-[2rem] !important;
 }
 
-.portfolio .swiper-slide {
+.portfolio-slider .swiper-slide {
     @apply rounded-2xl overflow-hidden !important;
 }
-.portfolio .swiper-slide-active {
-    @apply scale-150 !important;
+.portfolio-slider .swiper-slide-active {
+    @apply scale-125 md:scale-150 !important;
 }
-
-.portfolio .swiper-button-prev,
-.portfolio .swiper-button-next {
-    @apply border-[1px] border-light-primary px-8 py-1 rounded-xl !important;
-}
-
-.portfolio .swiper-button-prev {
-    @apply after:content-['_➔']  !important;
-}
-.portfolio .swiper-button-next {
-    @apply after:content-['_➔'] rotate-180 !important;
-}
-.portfolio .swiper-button-prev::after,
-.portfolio .swiper-button-next::after {
-    @apply text-3xl text-light-primary  !important;
+.portfolio-slider .swiper-pagination-bullet-active {
+    @apply bg-light-primary !important;
 }

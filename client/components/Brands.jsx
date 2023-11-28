@@ -26,7 +26,7 @@ const Brands = () => {
             speed={1500}
             loop={true}
             modules={[Autoplay]}
-            className="mySwiper"
+            className="brands-slider"
         >
             <div className="flex justify-center items-center">
                 <SwiperSlide className="mx-auto">
