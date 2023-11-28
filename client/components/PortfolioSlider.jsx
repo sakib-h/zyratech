@@ -2,8 +2,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css/navigation";
+import { EffectCoverflow, Navigation, Autoplay } from "swiper/modules";
 
 const PortfolioSlider = () => {
     return (
@@ -11,51 +11,101 @@ const PortfolioSlider = () => {
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={4}
-            spaceBetween={-60}
+            breakpoints={{
+                250: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+
+                1128: {
+                    slidesPerView: 3,
+                    spaceBetween: -60,
+                },
+                1366: {
+                    slidesPerView: 4,
+                    spaceBetween: -60,
+                },
+            }}
+            // spaceBetween={-60}
             coverflowEffect={{
-                rotate: 45,
+                rotate: 35,
                 stretch: 5,
                 depth: 80,
                 modifier: 1,
                 slideShadows: true,
             }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination, Autoplay]}
+            navigation={true}
+            modules={[EffectCoverflow, Navigation, Autoplay]}
             autoplay={{
                 delay: 2000,
                 disableOnInteraction: false,
             }}
             speed={1500}
             loop={true}
-            className="mySwiper"
         >
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                <div className="w-full">
+                    <img
+                        src="/images/web-portfolio-1.png"
+                        alt="web portfolio 1"
+                    />
+                </div>
             </SwiperSlide>
         </Swiper>
     );

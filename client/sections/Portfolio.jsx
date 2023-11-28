@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <section
             id="portfolio"
-            className="container bg-light-secondary rounded-[1.25rem] px-10"
+            className="portfolio container bg-light-secondary rounded-[1.25rem] px-10"
         >
             <div className="flex justify-start">
                 <h3 className="text-light-primary border-[1px] border-light-primary font-semibold text-[1.25rem] px-[1em] py-[0.3em] rounded-[50px]">
@@ -25,7 +25,7 @@ const Portfolio = () => {
                     surpass them.
                 </p>
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-5">
+            <div className="flex flex-wrap justify-center items-center gap-5 mb-[5rem]">
                 <button className="text-[1rem] bg-light-primary rounded-[50px] px-[2em] py-[0.5em] text-light-background">
                     All Projects
                 </button>
