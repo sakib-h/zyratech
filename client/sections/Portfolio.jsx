@@ -1,3 +1,5 @@
+import PortfolioSlider from "@components/PortfolioSlider";
+
 const Portfolio = () => {
     return (
         <section
@@ -39,6 +41,9 @@ const Portfolio = () => {
                 <button className="text-[1rem] border-[1px] border-light-primary rounded-[50px] px-[2em] py-[0.5em] text-light-text">
                     Digital Marketing
                 </button>
+            </div>
+            <div>
+                <PortfolioSlider />
             </div>
         </section>
     );
