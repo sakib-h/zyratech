@@ -8,7 +8,7 @@ const Portfolio = () => {
                 className="portfolio container bg-light-secondary rounded-[1.25rem] p-10 mb-[5rem]"
             >
                 <div className="flex justify-start">
-                    <h3 className="text-light-primary border-[1px] border-light-primary font-semibold text-[1.25rem] px-[1em] py-[0.3em] rounded-[50px]">
+                    <h3 className="text-light-primary border-[1px] border-light-primary font-semibold text-[1.25rem] px-[2rem] py-[0.5rem] rounded-[10px]">
                         Portfolio
                     </h3>
                 </div>
@@ -57,24 +57,161 @@ const Portfolio = () => {
                 </div>
             </section>
             <section className="container">
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-[5rem]">
                     <div className="col-span-1">
                         <h3 className="text-light-primary font-semibold text-[1.5rem] lg:text-[2.5rem] mb-5">
                             Affordable Pricing, <br /> Easy Scaling.
                         </h3>
                         <div>
-                            <ul className="gap-3">
+                            <ul className="flex flex-col gap-5">
                                 <li className="flex flex-row gap-2 items-center">
                                     <img
                                         src="/icons/check-circle.svg"
                                         alt="check"
+                                        className="w-[1.5rem] h-[1.5rem]"
                                     />
-                                    <p>Amazing Communication</p>
+                                    <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1.2rem]">
+                                        Amazing Communication
+                                    </p>
+                                </li>
+                                <li className="flex flex-row gap-2 items-center">
+                                    <img
+                                        src="/icons/check-circle.svg"
+                                        alt="check"
+                                        className="w-[1.5rem] h-[1.5rem]"
+                                    />
+                                    <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1.2rem]">
+                                        Best trending designing experience
+                                    </p>
+                                </li>
+                                <li className="flex flex-row gap-2 items-center">
+                                    <img
+                                        src="/icons/check-circle.svg"
+                                        alt="check"
+                                        className="w-[1.5rem] h-[1.5rem]"
+                                    />
+                                    <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1.2rem]">
+                                        Amazing Communication
+                                    </p>
+                                </li>
+                                <li className="flex flex-row gap-2 items-center">
+                                    <img
+                                        src="/icons/check-circle.svg"
+                                        alt="check"
+                                        className="w-[1.5rem] h-[1.5rem]"
+                                    />
+                                    <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1.2rem]">
+                                        Amazing Communication
+                                    </p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-span-2"></div>
+                    <div className="col-span-1 lg:col-span-2">
+                        <div className="flex flex-col md:flex-row lg:flex-col gap-10">
+                            <div className="w-full bg-light-secondary flex flex-col items-center justify-between lg:flex-row gap-10 rounded-[20px] shadow-xl px-10 py-5 ">
+                                <div className="flex flex-col justify-center items-center lg:items-start lg:justify-start">
+                                    <h3 className="text-light-primary font-semibold text-[1.5rem] lg:text-[2.5rem] mb-2">
+                                        Regular
+                                    </h3>
+                                    <span>7 days Delivery</span>
+                                </div>
+                                <div>
+                                    <ul className="flex flex-col  gap-5">
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                From Design to Final Product
+                                            </p>
+                                        </li>
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                On demand services
+                                            </p>
+                                        </li>
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                2 round of revisions
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="flex flex-col items-center gap-5">
+                                    <h1 className="font-semibold text-[1.5rem] lg:text-[2rem]">
+                                        $499
+                                    </h1>
+                                    <button className="text-[1rem] lg:text-[1.25rem] border-[2px] border-light-primary rounded-xl px-10 py-3 text-light-primary font-semibold ">
+                                        Sign Up
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div className="w-full bg-light-background flex flex-col items-center justify-between lg:flex-row gap-10 rounded-[20px] shadow-xl px-10 py-5 ">
+                                <div className="flex flex-col justify-center items-center lg:items-start lg:justify-start">
+                                    <h3 className="text-light-primary font-semibold text-[1.5rem] lg:text-[2.5rem] mb-2">
+                                        Enterprise
+                                    </h3>
+                                    <span>28 days Delivery</span>
+                                </div>
+                                <div>
+                                    <ul className="flex flex-col  gap-5">
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                From Design to Final Product
+                                            </p>
+                                        </li>
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                On demand services
+                                            </p>
+                                        </li>
+                                        <li className="flex flex-row gap-2 items-center">
+                                            <img
+                                                src="/icons/check-circle.svg"
+                                                alt="check"
+                                                className="w-[1.5rem] h-[1.5rem]"
+                                            />
+                                            <p className="text-light-text font-semibold text-[0.9rem] lg:text-[1rem]">
+                                                4 round of revisions
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="flex flex-col items-center gap-5">
+                                    <h1 className="font-semibold text-[1.5rem] lg:text-[2rem]">
+                                        $999
+                                    </h1>
+                                    <button className="text-[1rem] lg:text-[1.25rem] border-[2px] border-light-primary rounded-xl px-10 py-3 text-light-primary font-semibold ">
+                                        Sign Up
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

@@ -1,4 +1,5 @@
-import Brands from "@components/Brands";
+import dynamic from "next/dynamic";
+const BrandsSlider = dynamic(() => import("@components/BrandsSlider"));
 import Image from "next/image";
 
 const Hero = () => {
@@ -37,8 +38,8 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className="my-[5em]">
-                <Brands />
+            <div>
+                <BrandsSlider />
             </div>
         </section>
     );

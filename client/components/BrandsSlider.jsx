@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-const Brands = () => {
+const BrandsSlider = () => {
     return (
         <Swiper
             breakpoints={{
@@ -90,4 +90,4 @@ const Brands = () => {
     );
 };
 
-export default Brands;
+export default BrandsSlider;

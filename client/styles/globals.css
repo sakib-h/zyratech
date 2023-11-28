@@ -20,7 +20,7 @@
     @apply flex justify-center items-center !important;
 }
 .portfolio-slider.swiper {
-    @apply py-[1rem] lg:py-[5rem] max-h-max !important;
+    @apply py-[1rem] md:py-[5rem] max-h-max !important;
 }
 .portfolio-slider .swiper-wrapper {
     @apply pb-[2rem] !important;

@@ -19,7 +19,7 @@ const Navbar = () => {
                         scrollTargetIds={[
                             "services",
                             "portfolio",
-                            "about",
+                            "testimonial",
                             "contact",
                         ]}
                         offset={100}
@@ -34,8 +34,8 @@ const Navbar = () => {
                             <Link href="#portfolio" className="nav-link">
                                 Portfolio
                             </Link>
-                            <Link href="#about" className="nav-link">
-                                About
+                            <Link href="#testimonial" className="nav-link">
+                                Testimonial
                             </Link>
                             <Link href="#contact" className="nav-link">
                                 Contact

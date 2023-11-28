@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <section id="services" className="container">
             <div className="flex justify-start">
-                <h3 className="text-light-primary bg-light-secondary font-semibold text-[1.25rem] px-[1em] py-[0.3em] rounded-[50px]">
+                <h3 className="text-light-primary bg-light-secondary font-semibold text-[1.25rem] px-[2rem] py-[0.5rem] rounded-[10px]">
                     Services
                 </h3>
             </div>
@@ -38,7 +38,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-[5rem]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="col-span-1 relative rounded-[1.25rem] px-5 py-10 hover:bg-light-secondary group duration-300">
                     <div className="flex flex-col justify-start gap-5">
                         <img
