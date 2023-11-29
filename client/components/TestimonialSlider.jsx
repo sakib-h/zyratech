@@ -32,7 +32,7 @@ const TestimonialSlider = () => {
             <div className="flex justify-center items-center">
                 <SwiperSlide className="mx-auto">
                     <div>
-                        <div className="flex flex-col h-[200px] gap-5 justify-start mb-5">
+                        <div className="flex flex-col h-[250px] gap-5 justify-start mb-5">
                             <img
                                 src="/icons/quotes.svg"
                                 className="w-[48px] md:w-[56px]"
@@ -68,7 +68,7 @@ const TestimonialSlider = () => {
 
                 <SwiperSlide className="mx-auto">
                     <div>
-                        <div className="flex flex-col h-[200px] gap-5 justify-start mb-5">
+                        <div className="flex flex-col h-[250px] gap-5 justify-start mb-5">
                             <img
                                 src="/icons/quotes.svg"
                                 className="w-[48px] md:w-[56px]"
@@ -103,7 +103,7 @@ const TestimonialSlider = () => {
 
                 <SwiperSlide className="mx-auto">
                     <div>
-                        <div className="flex flex-col h-[200px] gap-5 justify-start mb-5">
+                        <div className="flex flex-col h-[250px] gap-5 justify-start mb-5">
                             <img
                                 src="/icons/quotes.svg"
                                 className="w-[48px] md:w-[56px]"
