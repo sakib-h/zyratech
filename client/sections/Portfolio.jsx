@@ -1,4 +1,5 @@
-import PortfolioSlider from "@components/PortfolioSlider";
+import dynamic from "next/dynamic";
+const PortfolioSlider = dynamic(() => import("@components/PortfolioSlider"));
 import Link from "next/link";
 const Portfolio = () => {
     return (

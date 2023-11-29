@@ -1,3 +1,4 @@
+import { MotionDiv } from "@lib/FramerMotion";
 import dynamic from "next/dynamic";
 const BrandsSlider = dynamic(() => import("@components/BrandsSlider"));
 import Image from "next/image";
@@ -38,9 +39,13 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div>
+            <MotionDiv
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1, type: "spring", bounce: 0.25 }}
+            >
                 <BrandsSlider />
-            </div>
+            </MotionDiv>
         </section>
     );
 };
