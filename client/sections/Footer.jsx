@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <div className="w-full flex flex-col lg:flex-row items-start lg:justify-between gap-10 pb-5">
+                <div className="w-full flex flex-col md:flex-row items-start md:justify-between gap-10 md:gap-5 lg:gap-10 pb-5">
                     <div className="flex flex-col gap-5">
                         <Link
                             href="/"

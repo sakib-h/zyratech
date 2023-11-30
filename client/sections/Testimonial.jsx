@@ -17,7 +17,7 @@ const Testimonial = () => {
                     Customer is our Priority
                 </h2>
             </div>
-            <div>
+            <div className="mb-5">
                 <TestimonialSlider />
             </div>
         </section>

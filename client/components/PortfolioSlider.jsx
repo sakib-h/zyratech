@@ -14,7 +14,7 @@ const PortfolioSlider = () => {
             breakpoints={{
                 250: {
                     slidesPerView: 2,
-                    spaceBetween: -60,
+                    spaceBetween: -20,
                 },
 
                 1128: {

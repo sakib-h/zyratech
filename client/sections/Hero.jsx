@@ -19,7 +19,7 @@ const Hero = () => {
                             Empowering Brands for a Bold Tomorrow: Where Vision
                             Meets Identity
                         </p>
-                        <div className="w-full flex flex-col md:flex-row justify-center md:justify-start items-center gap-5">
+                        <div className="hidden md:flex flex-col md:flex-row justify-center md:justify-start items-center gap-5">
                             <button className="text-[1rem] bg-light-primary rounded-[50px] px-[2em] py-[1em] text-light-background">
                                 Free Consultation
                             </button>
@@ -38,11 +38,20 @@ const Hero = () => {
                         alt="Header"
                     />
                 </div>
+                <div className="flex md:hidden flex-col md:flex-row justify-center md:justify-start items-center gap-5">
+                    <button className="w-full text-[1rem] bg-light-primary rounded-[50px] px-[2em] py-[1em] text-light-background">
+                        Free Consultation
+                    </button>
+                    <button className="w-full text-[1rem] bg-light-secondary rounded-[50px] px-[2em] py-[1em] text-light-text">
+                        Get Connected
+                    </button>
+                </div>
             </div>
             <MotionDiv
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, type: "spring", bounce: 0.25 }}
+                className="mb-[5rem] md:mb-0"
             >
                 <BrandsSlider />
             </MotionDiv>

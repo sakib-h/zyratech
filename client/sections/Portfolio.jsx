@@ -47,17 +47,17 @@ const Portfolio = () => {
                 <div>
                     <PortfolioSlider />
                 </div>
-                <div>
+                <div className="mt-5">
                     <Link
                         href="/"
-                        className="text-light-primary flex justify-end items-center gap-1 cursor-pointer"
+                        className="text-light-primary flex justify-center lg:justify-end items-center gap-1 cursor-pointer"
                     >
                         <p> Explore More Projects</p>{" "}
                         <span className="rotate-[-45deg]">➜</span>
                     </Link>
                 </div>
             </section>
-            <section className="container">
+            {/* <section className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-[5rem]">
                     <div className="col-span-1">
                         <h3 className="text-light-primary font-semibold text-[1.5rem] lg:text-[2.5rem] mb-5">
@@ -214,7 +214,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };
